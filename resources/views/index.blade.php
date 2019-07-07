@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Creative - Start Bootstrap Theme</title>
+  <title>Aleksandra Živković</title>
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -124,79 +124,79 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Sajt
               </div>
               <div class="project-name">
-                Project Name
+                Škola matematike
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+              Poslovno - informacioni sistem
               </div>
               <div class="project-name">
-                Project Name
+                Pantheon (Poslovni program na kojem sam radila)
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Poslovno - informacioni sistem
               </div>
               <div class="project-name">
-                Project Name
+                Tiramisu (Poslovni program na kojem sam radila)
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/4.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Sajt
               </div>
               <div class="project-name">
-                Project Name
+                Dječiji kutak
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/5.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/5.png" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
-                Category
+                Kategorija
               </div>
               <div class="project-name">
-                Project Name
+                Naziv projekta
               </div>
             </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+          <a class="portfolio-box" href="img/portfolio/fullsize/6.png">
+            <img class="img-fluid" src="img/portfolio/thumbnails/6.png" alt="">
             <div class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
-                Category
+                Kategorija
               </div>
               <div class="project-name">
-                Project Name
+                Naziv projekta
               </div>
             </div>
           </a>
