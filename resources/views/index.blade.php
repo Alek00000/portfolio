@@ -30,7 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#home">HOME</a>
+      <a class="navbar-brand js-scroll-trigger" href="{{ url('/') }}">HOME</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,7 +43,7 @@
             <a class="nav-link js-scroll-trigger" href="#contact">Kontakt</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#admin">Administracija</a>
+            <a class="nav-link js-scroll-trigger" href="{{ url('/administracija') }}">Administracija</a>
           </li>
         </ul>
       </div>
@@ -84,35 +84,35 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <h2 class="text-center mt-0">At Your Service</h2>
+      <h2 class="text-center mt-0">NEŠTO O MENI</h2>
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sturdy Themes</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <h3 class="h4 mb-2">Zadovoljni klijenti</h3>
+            <p class="text-muted mb-0">Projekte se realizujem po vašoj želji!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Up to Date</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <h3 class="h4 mb-2">Vrijeme</h3>
+            <p class="text-muted mb-0">Nastojim da se ispoštuje rok za predaju projekta.</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-globe text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Ready to Publish</h3>
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+            <h3 class="h4 mb-2">Spremno za prikazivanje</h3>
+            <p class="text-muted mb-0">Dizajn sve ostavlja bez daha, pa tako će i vas!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
           <div class="mt-5">
             <i class="fas fa-4x fa-heart text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Made with Love</h3>
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <h3 class="h4 mb-2">Ponuda</h3>
+            <p class="text-muted mb-0">Sajtovi, web prodavnice, promocije. Mi smo rešenje za vas!</p>
           </div>
         </div>
       </div>
@@ -121,95 +121,34 @@
 
   <!-- Portfolio Section -->
   <section id="portfolio">
+ 
     <div class="container-fluid p-0">
       <div class="row no-gutters">
+      @foreach($file as $files)
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.png" alt="">
+          <a class="portfolio-box"  href="/storage/upload/{{ $files->name }}">
+            <img class="img-fluid" src="/storage/upload/{{ $files->name }}" alt="Greška">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Sajt
               </div>
               <div class="project-name">
-                Škola matematike
+               {{ $files->text }}
               </div>
             </div>
           </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-              Poslovno - informacioni sistem
-              </div>
-              <div class="project-name">
-                Pantheon (Poslovni program na kojem sam radila)
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Poslovno - informacioni sistem
-              </div>
-              <div class="project-name">
-                Tiramisu (Poslovni program na kojem sam radila)
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Sajt
-              </div>
-              <div class="project-name">
-                Dječiji kutak
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.png" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Kategorija
-              </div>
-              <div class="project-name">
-                Naziv projekta
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.png">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.png" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Kategorija
-              </div>
-              <div class="project-name">
-                Naziv projekta
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
+        @endforeach
+      </div>  
     </div>
+   
   </section>
 
   <!-- Call to Action Section -->
   <section class="page-section bg-dark text-white">
     <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
+      <h2 class="mb-4">Kako da promovišete Vaš posao na društvenim mrežama?</h2>
+      <a class="btn btn-light btn-xl" href="https://ceresa.hr/arhiva/3513/10-nacina-kako-se-promovirati-na-drustvenim-mrezama/">Saznajte ovdje!</a>
     </div>
   </section>
 
