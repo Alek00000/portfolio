@@ -87,7 +87,7 @@
 
                 <div class="links">
                 <p style="color:red">Ako niste administrator kliknite na link ispod.</p>
-                    <a href="{{ url('/index') }}">Portfolio - Aleksandra Živković</a>
+                    <a href="{{ url('/') }}">Portfolio - Aleksandra Živković</a>
                 </div>
             </div>
         </div>

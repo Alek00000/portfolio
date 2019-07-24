@@ -11,13 +11,12 @@
 |
 */
 use App\Projekti;
+use App\File;
 
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/index', function () {
-    return view('index');
-});
+
 
 
 
@@ -30,7 +29,7 @@ Route::get('/administracija', function () {
 Route::get('file', 'FileControllerProjekat@showUploadForm')->name('upload.file');
 
 Route::post('file', 'FileControllerProjekat@storeProjekti');
-Route::get('index', 'FileControllerProjekat@showProjekti');
+Route::get('/', 'FileControllerProjekat@showProjekti');
 
 Auth::routes();
 
