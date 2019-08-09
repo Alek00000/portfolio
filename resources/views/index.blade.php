@@ -91,7 +91,7 @@
           <div class="mt-5">
             <i class="fas fa-4x fa-gem text-primary mb-4"></i>
             <h3 class="h4 mb-2">Zadovoljni klijenti</h3>
-            <p class="text-muted mb-0">Projekte se realizujem po vašoj želji!</p>
+            <p class="text-muted mb-0">Projekte realizujem po vašoj želji!</p>
           </div>
         </div>
         <div class="col-lg-3 col-md-6 text-center">
